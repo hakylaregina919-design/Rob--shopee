@@ -7,7 +7,7 @@ st.set_page_config(page_title="Robo Integrador Shopee", page_icon="🤖", layout
 st.title("🤖 Painel do Seu Robo SaaS")
 
 ASAAS_API_KEY =  "$aact_prod_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OjhlNWI2YTYyLTlmNjYtNGM5Yi1iYzhhLTMzMjExYjIxMDQzMjo6JGFhY2hfOWNhNDQ1ZTAtZTY0Yy00YTAxLWIzMmUtNDQwZDk5N2RjYTdl"
-
+TELEGRAM_BOT_TOKEN = "8013204437"
 # Abas limpas sem caracteres especiais para o servidor nao travar
 aba_pagamento, aba_configuracao, aba_suporte = st.tabs(["Assinatura Pix", "Configurar Robo", "Suporte 24h"])
 
