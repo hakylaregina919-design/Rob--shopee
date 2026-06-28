@@ -5,7 +5,7 @@ import time
 st.set_page_config(page_title="Robô Integrador Shopee", page_icon="🤖")
 st.title("🤖 Painel do Seu Robô SaaS")
 
-aba_pagamento, aba_configuracao = st.tabs([ 7c279cad-2cfe-4a4c-8296-5c4a9c4e32c2"])
+aba_pagamento, aba_configuracao = st.tabs(["7c279cad-2cfe-4a4c-8296-5c4a9c4e32c2"])
 
 # Função interna para salvar os dados do cliente no banco de dados real
 def salvar_no_banco(email, pid, pkey):
