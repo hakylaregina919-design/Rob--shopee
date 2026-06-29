@@ -7,7 +7,7 @@ st.set_page_config(page_title="Robo Integrador Shopee & Shein", page_icon="🤖"
 st.title("🤖 Painel do Seu Robo SaaS")
 
 # 🚨 CHAVE DO ASAAS (Caso use o modo real, insira sua chave aqui)
-ASAAS_API_KEY = "chave_de_teste" 
+ASAAS_API_KEY = "$aact_prod_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmM0MDk3NTg5LTBmODctNGNiYS05YzhmLWNiY2YxMzM5MzVjZDo6JGFhY2hfMWJmZDRiNjMtZjdjMy00NjA4LWE4OWYtNDAwNDM4MDI0M2Nh"
 
 aba_pagamento, aba_configuracao, aba_suporte = st.tabs(["Assinatura Pix", "Configurar Robo", "Suporte 24h"])
 
